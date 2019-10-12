@@ -23,20 +23,25 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit the `ANSWERS.md` file to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] Why would you use class component over function components (removing hooks from the question)?
+    class function are the older way of making a react app, so there a little more features that comes with the class that the function can not do as of yet. Eventually the function components will catch up and surpas the class.
 - [ ] Name three lifecycle methods and their purposes.
+    render is one of the many lifecycle methods in the class function and render is requried in all class component. This method is use to render to return the reults of your app
+    another method would be constructer which is another mounting method, but is not always needed, this method is normally use for two reason which are when you are using local state and binding and event handler
+    another method would be componentwillunmount this is an unmounting method which is invoked immediately before a component is unmounted and destroyed
 - [ ] What is the purpose of a custom hook?
+    custom hook are components that you will create that will help make your app more dry. example if you call an axios more than once in your app, you can then create a custom hook that will call that axios.
 - [ ] Why is it important to test our apps?
 
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add TL as collaborator on Github.
-- [ ] Clone your OWN version of Repo. **(Not Lambda's by mistake!)**
-- [ ] Create a new Branch locally: `git checkout -b <firstName-lastName>`.
-- [ ] Run `yarn` to download dependencies.
-- [ ] Run the server using `yarn start` or `node server.js`.
+- [x] Create a forked copy of this project.
+- [x] Add TL as collaborator on Github.
+- [x] Clone your OWN version of Repo. **(Not Lambda's by mistake!)**
+- [x] Create a new Branch locally: `git checkout -b <firstName-lastName>`.
+- [x] Run `yarn` to download dependencies.
+- [x] Run the server using `yarn start` or `node server.js`.
 - [ ] In a separate terminal cd into the `client` folder and run `yarn install` to download dependencies.
 - [ ] Still inside the `client` folder run `yarn start` to run the client application.
 - [ ] Implement the project on this Branch, **committing progress & changes often.**
