@@ -3,12 +3,13 @@ import PlayerList from './components/PlayerList';
 import NavBar from './components/NavBar';
 
 function App() {
+
   return (
     <>
-    <NavBar />
-    <div className="App">      
-      <PlayerList />
-    </div>
+      <NavBar />
+      <div className="mainContainer" data-testid="mainContainer">
+        <PlayerList />
+      </div>
     </>
   );
 }
