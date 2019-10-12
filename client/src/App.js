@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import PlayerList from './components/PlayerList';
 import NavBar from './components/NavBar';
 
